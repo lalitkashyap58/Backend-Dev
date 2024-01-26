@@ -28,3 +28,15 @@ To configure the database connection, open the `config.js` file and update the d
 ## Running the Backend
 
 To run the backend server, execute the following command:
+
+
+## How to connect your Database to the server
+
+Create the folder DB
+ - create the file into which you will write the code for connection.<br>
+- Before connecting the Database don't forget to load your env variable in index.js file , look for better solutions on the internet how you can do that .<br>
+- Put the String URI in the env file along with DB_Name you want to give your Database.
+- That's it you can write the code now . 
+
+
+
