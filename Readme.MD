@@ -39,4 +39,14 @@ Create the folder DB
 - That's it you can write the code now . 
 
 
+# MongoDb aggeregate paginate(important understand that feature)
+ - mongodb aggregation pipeline.
+
+# Bcrypt and Bcryptjs  - for password encryption
+
+
+# JWT is a bearer token -> jis person ke pass ye hoga uske validate maan lenge
+
+
+
 
