@@ -11,7 +11,14 @@ dotenv.config({path:'./env'});
 
 
 const app = express();
-connectDB();
+connectDB().then(()=>{
+    app.listen(process.env.PORT || 8080, () => {
+        console.log(`server is running on ${process.env.PORT || 4000}`);
+    });
+}).catch((error)=>{
+    console.log("Database connection failed", error);
+    throw error;
+})
 
 // (async () => {
 //     try {
